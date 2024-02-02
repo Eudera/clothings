@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+  padding-bottom: 40px;
+  transition: var(--transition);
+  height: fit-content;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  --primary: green;
+  /* Color Palette */
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --accent-color: #e74c3c;
+  --background-color: #ecf0f1;
+  --text-color: #34495e;
+  --pale-pink: #ffd8d8;
+  --light-coral: #ffabab;
+  --melon: #ffc3a0;
+  --blush: #ff677d;
+  --misty-rose: #d4a5a5;
+  /* Ocean Breeze */
+  --dodger-blue: #3498db;
+  --steel-blue: #5dade2;
+  --light-blue: #aed6f1;
+  --powder-blue: #ebf5fb;
+  --midnight-blue: #2c3e50;
+
+  /* Sunset Vibes */
+  --light-salmon: #ff6b6b;
+  --blanched-almond: #f9e79f;
+  --saffron: #f4d03f;
+  --dark-orange: #eb984e;
+  --deep-lilac: #6a1b9a;
+
+  /* Nature Harmony */
+  --green: #4caf50;
+  --lime-green: #8bc34a;
+  --lime: #cddc39;
+  --yellow: #ffeb3b;
+  --brown: #795548;
+  --brown2: #7955481c;
+
+  /* Urban Chic */
+  --blue-gray: #607d8b;
+  --silver: #b0bec5;
+  --manatee: #90a4ae;
+  --slate-gray: #546e7a;
+  --dark-blue-gray: #263238;
+  --darker-blue-gray: #1f282c;
+
+  /* Candy Shop */
+  --pink: #ff4081;
+  --pink-rose: #ff80ab;
+  --pink-bubblegum: #ffc0cb;
+  --cherry-blossom: #f8bbd0;
+  --deep-pink: #c2185b;
+
+  /* Autumn Hues */
+  --amber: #ff9800;
+  --orange: #ffb74d;
+  --light-orange: #ffcc80;
+  --chocolate: #d2691e;
+  --saddle-brown: #8b4513;
+
+  /* Mystic Meadows */
+  --amethyst: #9b59b6;
+  --purple: #8e44ad;
+  --lavender-purple: #bb8fce;
+  --thistle: #d2b4de;
+  --deep-purple: #7d3c98;
+
+  /* Typography */
+  --font-family: "Roboto", sans-serif;
+  --font-size-base: 16px;
+  --line-height-base: 1.6;
+
+  /* Box Shadows */
+  --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  /* Transitions */
+  --transition: 0.3s ease-in all;
+
+  /* Spacing */
+  --spacing-unit: 8px;
+  --spacing-double: calc(var(--spacing-unit) * 2);
+  --spacing-half: calc(var(--spacing-unit) / 2);
+  --spacing-quarter: calc(var(--spacing-unit) / 4);
+}
+
+.dark {
+  --dark-blue-gray: white;
+  --background-color: #282c35;
+  --midnight-blue: #ebf5fb;
+  --text-color: #b0bec5;
+}
+
+.img1cont {
+  background-color: var(--dark-blue-gray);
+}
+
+.get {
+  color: var(--background-color);
+  background-color: var(--dark-blue-gray);
+}
+
+.bell {
+  color: var(--dark-blue-gray);
+}
+.live {
+  color: var(--darker-blue-gray);
+}
+
+.popular {
+  background-color: var(--brown2);
+}
+.image {
+  background-color: var(--slate-gray);
+  border: 3px solid var(--background-color);
+}
+.name {
+  color: var(--dark-blue-gray);
+  box-shadow: var(--box-shadow);
+}
+
+.catedesc {
+  background-color: var(--background-color);
+  box-shadow: 0 0 2px black;
+}
